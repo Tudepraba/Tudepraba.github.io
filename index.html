@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tudepraba - Personal Website</title>
+    <title>Tude Praba - Portofolio Web Developer</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
 <body>
     <header>
         <div class="container">
-            <h1>Tudepraba</h1>
+            <h1 class="logo"><a href="#">Tude Praba</a></h1>
             <nav>
                 <ul>
                     <li><a href="#about">Tentang</a></li>
-                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
                     <li><a href="#contact">Kontak</a></li>
                 </ul>
             </nav>
@@ -22,47 +24,86 @@
 
     <section id="hero">
         <div class="container">
-            <img src="https://via.placeholder.com/150" alt="Foto Tude" class="profile-pic">
-            <h2>Halo, saya Tudepraba!</h2>
-            <p>Seorang Mahasiswa Sistem Komputer dari ITB Stikom Bali. Selamat datang di website personal saya!</p>
+            <img src="https://via.placeholder.com/200" alt="Foto Profil Tude Praba" class="profile-img">
+            <h2>Halo, saya Tude Praba.</h2>
+            <p>Seorang Pengembang Web Frontend yang bersemangat dalam membangun antarmuka pengguna yang menarik dan responsif.</p>
+            <a href="#portfolio" class="btn">Lihat Portofolio Saya</a>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
             <h3>Tentang Saya</h3>
-            <p>saya seorang mahasiswa ITB STIKOM BALI jurusan sistem komputer yang tertarik dengan bidang IT dan juga internet.</p>
+            <p>Saya adalah seorang individu yang berdedikasi dengan latar belakang mahasiswa ITB SITOKOM Bali jurusan Sistem Komputer dan minat yang kuat dalam menciptakan solusi web yang inovatif. Saya percaya bahwa setiap proyek adalah kesempatan untuk belajar dan berkembang.</p>
+            <p>Di waktu luang, saya suka membaca buku, belajar bahasa baru.</p>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="skills">
         <div class="container">
-            <h3>Proyek Saya</h3>
-            <div class="project-item">
-                <h4>Nama Proyek 1</h4>
-                <p>Deskripsi singkat proyek ini.</p>
-                <a href="#">Lihat Proyek</a>
-            </div>
-            <div class="project-item">
-                <h4>Nama Proyek 2</h4>
-                <p>Deskripsi singkat proyek ini.</p>
-                <a href="#">Lihat Proyek</a>
-            </div>
+            <h3>Keahlian Saya</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>HTML5 & CSS3</h4>
+                    <p>Struktur dan styling web modern.</p>
+                </div>
+                <div class="skill-item">
+                    <h4>JavaScript (ES6+)</h4>
+                    <p>Logika interaktif dan manipulasi DOM.</p>
+                </div>
+                <div class="skill-item">
+                    <h4>ReactJS</h4>
+                    <p>Membangun antarmuka pengguna berbasis komponen.</p>
+                </div>
+                <div class="skill-item">
+                    <h4>Responsive Design</h4>
+                    <p>Memastikan tampilan web optimal di berbagai perangkat.</p>
+                </div>
+                <div class="skill-item">
+                    <h4>Git & GitHub</h4>
+                    <p>Manajemen versi dan kolaborasi kode.</p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h3>Portofolio Saya</h3>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Proyek 1">
+                    <h4>Proyek Aplikasi Catatan</h4>
+                    <p>Aplikasi web sederhana untuk mencatat tugas harian dengan fitur [sebutkan fitur utama].</p>
+                    <a href="#" target="_blank" class="project-link">Lihat Demo</a>
+                    <a href="https://github.com/tudepraba/project-notes" target="_blank" class="project-link">Repo GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Proyek 2">
+                    <h4>Website E-commerce Fiktif</h4>
+                    <p>Desain dan implementasi toko online dengan fitur [sebutkan fitur utama].</p>
+                    <a href="#" target="_blank" class="project-link">Lihat Demo</a>
+                    <a href="https://github.com/tudepraba/ecommerce-site" target="_blank" class="project-link">Repo GitHub</a>
+                </div>
+                </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
             <h3>Kontak Saya</h3>
-            <p>Email: tudepraba28@gmail.com</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/tude">linkedin.com/in/tude</a></p>
+            <p>Tertarik untuk berkolaborasi atau sekadar menyapa? Jangan ragu untuk menghubungi saya!</p>
+            <p>Email: <a href="mailto:tudepraba28@gmail.com">tudepraba28@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/tudepraba" target="_blank">linkedin.com/in/tudepraba</a></p>
+            <p>GitHub: <a href="https://github.com/tudepraba" target="_blank">github.com/tudepraba</a></p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Tudepraba. Hak Cipta Dilindungi.</p>
+            <p>&copy; 2025 Tude Praba. Dibangun dengan ❤️ dan semangat.</p>
         </div>
     </footer>
-</body>
+
+    <script src="script.js"></script> </body>
 </html>
