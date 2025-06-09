@@ -1,64 +1,91 @@
-/* Reset dasar & box sizing */
-* {
-  margin: 0;
-  padding: 0;
-  :contentReference[oaicite:1]{index=1}
-}
-
-/* Body & layout */
 body {
-  :contentReference[oaicite:2]{index=2}
-  :contentReference[oaicite:3]{index=3}
-  color: #333;
-  background: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-:contentReference[oaicite:4]{index=4}
 .container {
-  :contentReference[oaicite:5]{index=5}
-  :contentReference[oaicite:6]{index=6}
-  margin: auto;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
 }
 
-/* Header */
 header {
-  :contentReference[oaicite:7]{index=7}
-  :contentReference[oaicite:8]{index=8}
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
 }
+
 header h1 {
-  :contentReference[oaicite:9]{index=9}
-  :contentReference[oaicite:10]{index=10}
-}
-header p {
-  :contentReference[oaicite:11]{index=11}
-  color: #555;
+    float: left;
+    margin: 0;
 }
 
-/* Section judul */
-section h2 {
-  :contentReference[oaicite:12]{index=12}
-  :contentReference[oaicite:13]{index=13}
-  color: #0066cc;
+header nav {
+    float: right;
+    margin-top: 10px;
 }
 
-/* Card / projek */
-.card {
-  background: white;
-  padding: 1rem;
-  :contentReference[oaicite:14]{index=14}
-  :contentReference[oaicite:15]{index=15}
-  :contentReference[oaicite:16]{index=16}
-}
-.card strong {
-  color: #222;
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-/* Footer */
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #e2e2e2;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 30px 0;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project-item {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: #77aaff 5px solid;
+    border-radius: 4px;
+}
+
 footer {
-  :contentReference[oaicite:17]{index=17}
-  :contentReference[oaicite:18]{index=18}
-  :contentReference[oaicite:19]{index=19}
-  background: #222;
-  color: white;
-  :contentReference[oaicite:20]{index=20}
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
 }
