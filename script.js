@@ -8,5 +8,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Kamu bisa tambahkan logika JavaScript lainnya di sini
-// Contoh: animasi saat scroll, validasi form, dll.
+
